@@ -58,8 +58,8 @@ import { useEffect, useState, Suspense } from "react";
 import "./App.css";
 import Navbar from "./assets/Components/Navbar/Navbar";
 import Banner from "./assets/Components/Banner/Banner";
-import AllTickets from "./assets/Components/CustomerTickets/AllTickets";
-import TaskStatus from "./assets/Components/TaskStatus/TaskStatus";
+import AllTickets from "./assets/Components/CustomerTickets/AllTickets/AllTickets";
+import TaskStatus from "./assets/Components/taskStatus/TaskStatus";
 
 function App() {
   const [allTickets, setAllTickets] = useState([]);
