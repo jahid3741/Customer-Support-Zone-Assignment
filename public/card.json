@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Login button not responding",
+    "description": "Users are unable to click the login button on the homepage.",
+    "customer": "Emma Wilson",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2025-10-20"
+  },
+  {
+    "id": 2,
+    "title": "Payment not processing",
+    "description": "Customers report failed transaction attempts when using credit cards.",
+    "customer": "James Carter",
+    "priority": "Critical",
+    "status": "Resolved",
+    "createdAt": "2025-10-18"
+  },
+  {
+    "id": 3,
+    "title": "Broken product images",
+    "description": "Images on product details page fail to load.",
+    "customer": "Sarah Miller",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-10-21"
+  },
+  {
+    "id": 4,
+    "title": "Search results not accurate",
+    "description": "Search feature not returning relevant results.",
+    "customer": "Tom Parker",
+    "priority": "Low",
+    "status": "In-Progress",
+    "createdAt": "2025-10-19"
+  },
+  {
+    "id": 5,
+    "title": "Slow website loading",
+    "description": "Website performance is degraded during peak periods.",
+    "customer": "Olivia Brown",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2025-10-22"
+  },
+  {
+    "id": 6,
+    "title": "Unable to reset password",
+    "description": "Password reset link does not send email.",
+    "customer": "Michael Lee",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2025-10-15"
+  },
+  {
+    "id": 7,
+    "title": "Profile image not updating",
+    "description": "Updating profile image does not reflect changes.",
+    "customer": "Ava Johnson",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2025-10-16"
+  },
+  {
+    "id": 8,
+    "title": "Contact form submission error",
+    "description": "Form throws validation error even when fields are correct.",
+    "customer": "Daniel Clark",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-10-14"
+  },
+  {
+    "id": 9,
+    "title": "Order history not visible",
+    "description": "Users cannot see past orders in their dashboard.",
+    "customer": "Sophia Moore",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2025-10-20"
+  },
+  {
+    "id": 10,
+    "title": "Email notifications delayed",
+    "description": "Order confirmation emails are delayed by several hours.",
+    "customer": "Ethan Anderson",
+    "priority": "Medium",
+    "status": "In-Progress",
+    "createdAt": "2025-10-17"
+  },
+  {
+    "id": 11,
+    "title": "Shopping cart not updating",
+    "description": "Added items appear missing after refresh.",
+    "customer": "Liam Harris",
+    "priority": "Critical",
+    "status": "Pending",
+    "createdAt": "2025-10-19"
+  },
+  {
+    "id": 12,
+    "title": "App crashing on Android",
+    "description": "App closes unexpectedly during checkout.",
+    "customer": "Charlotte Davis",
+    "priority": "High",
+    "status": "In-Progress",
+    "createdAt": "2025-10-21"
+  },
+  {
+    "id": 13,
+    "title": "Wishlist not saving",
+    "description": "Added items disappear from wishlist.",
+    "customer": "Benjamin Scott",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-10-12"
+  },
+  {
+    "id": 14,
+    "title": "Language change not applied",
+    "description": "Selected language resets after navigating pages.",
+    "customer": "Amelia Walker",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2025-10-22"
+  },
+  {
+    "id": 15,
+    "title": "Popup message overlap",
+    "description": "Promotional popup hides navigation buttons.",
+    "customer": "Lucas Hall",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2025-10-13"
+  }
+]
