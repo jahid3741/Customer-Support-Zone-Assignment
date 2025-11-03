@@ -2,8 +2,6 @@ import React from "react";
 const TaskStatus = ({ inProgress, resolved, onComplete }) => {
   return (
     <div className="space-y-10">
-
-      {/* ✅ In Progress Section */}
       <div>
         <h3 className="text-lg font-bold mb-3">Task Status</h3>
 
