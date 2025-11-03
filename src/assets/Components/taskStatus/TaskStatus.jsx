@@ -1,39 +1,53 @@
-// src/assets/Components/TaskStatus/TaskStatus.jsx
+
 import React from "react";
 
+// --- REVISED TaskStatus COMPONENT ---
 const TaskStatus = ({ inProgress, resolved, onComplete }) => {
   return (
-    <div className="space-y-6">
+    <div className="space-y-10">
+
+      {/* ✅ In Progress Section */}
       <div>
-        <div className="flex items-center justify-between mb-3">
-          <h3 className="text-lg font-semibold">Task Status</h3>
-          <div className="text-sm">In Progress: {inProgress.length}</div>
-        </div>
-        <div className="space-y-3">
-          {inProgress.map((t) => (
-            <div key={t.id} className="bg-white rounded-md p-3 shadow-sm border border-gray-200 flex items-center justify-between">
-              <div className="text-sm">{t.title}</div>
-              <button className="btn btn-sm btn-success" onClick={() => onComplete(t)}>Complete</button>
-            </div>
-          ))}
-        </div>
+        <h3 className="text-lg font-bold mb-3">Task Status</h3>
+
+        {inProgress.length === 0 ? (
+          <p className="text-gray-500 text-sm">Select a ticket to add to Task Status</p>
+        ) : (
+          <div className="space-y-3">
+            {inProgress.map((task) => (
+              <div key={task.id} className="bg-white rounded-md p-4 shadow border flex justify-between items-center">
+                <span className="text-sm font-medium">{task.title}</span>
+                <button
+                  className="btn btn-sm btn-success"
+                  onClick={() => onComplete(task)}
+                >
+                  Complete
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
       </div>
 
+      {/* ✅ Resolved Section */}
       <div>
-        <div className="flex items-center justify-between mb-3">
-          <h3 className="text-lg font-semibold">Resolved</h3>
-          <div className="text-sm">Resolved: {resolved.length}</div>
-        </div>
-        <div className="space-y-3">
-          {resolved.map((t) => (
-            <div key={t.id} className="bg-white rounded-md p-3 shadow-sm border border-gray-200 text-sm">
-              {t.title}
-            </div>
-          ))}
-        </div>
+        <h3 className="text-lg font-bold mb-3">Resolved</h3>
+
+        {resolved.length === 0 ? (
+          <p className="text-gray-500 text-sm">No resolved task yet</p>
+        ) : (
+          <div className="space-y-3">
+            {resolved.map((task) => (
+              <div key={task.id} className="bg-green-50 rounded-md p-4 shadow border text-sm font-medium">
+                {task.title}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
 };
+
 
 export default TaskStatus;

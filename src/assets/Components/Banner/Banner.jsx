@@ -9,7 +9,7 @@ const Banner = ({inProgress, resolved} ) => {
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
                     <h1 className="text-3xl font-semibold">In-Progress</h1>
                     <div className="text-4xl font-bold">{inProgress}</div>
-                    <p className='text-6xl font-bold'>0</p>
+                    
                 </div>
             </div>
 
@@ -19,7 +19,7 @@ const Banner = ({inProgress, resolved} ) => {
                 <div className="absolute inset-0 flex flex-col justify-center items-center text-center">
                     <h1 className="text-3xl font-semibold">Resolved</h1>
                     <div className="text-4xl font-bold">{resolved}</div>
-                    <p className='text-6xl font-bold'>0</p>
+                   
                 </div>
             </div>
 
