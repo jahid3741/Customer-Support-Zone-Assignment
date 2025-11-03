@@ -5,6 +5,7 @@ import Banner from "./assets/Components/Banner/Banner";
 import CustomerTickets from "./assets/Components/CustomerTickets/CustomerTickets";
 import TaskStatus from "./assets/Components/taskStatus/TaskStatus";
 import AllTickets from "./assets/Components/CustomerTickets/AllTickets/AllTickets";
+import Footer from "./assets/Components/Footer/Footer";
 import { toast, ToastContainer } from 'react-toastify';
 
 function App() {
@@ -68,6 +69,7 @@ const handleComplete = (ticket) => {
           </div>
         )}
       </Suspense>
+      <Footer></Footer>
      <ToastContainer/>
     </>
   );
